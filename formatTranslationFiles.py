@@ -4,7 +4,7 @@ SCRIPT_DIR = os.path.join(os.path.dirname(__file__))
 
 TRANSLATION_FILES_DIR = os.path.join(SCRIPT_DIR, 'data', 'translation_files')
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, 'data', 'translationFiles.json')
-SCHEMAS_DIR = os.path.join(SCRIPT_DIR, 'formatted', r"{key}.schema.json")
+SCHEMAS_DIR = os.path.join(SCRIPT_DIR, 'PZ_Translation_Schemas', r"{key}.schema.json")
 
 translation_files = {}
 for filename in os.listdir(TRANSLATION_FILES_DIR):
