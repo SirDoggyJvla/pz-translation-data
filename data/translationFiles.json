@@ -146,6 +146,20 @@
       }
     ]
   },
+  "Location_Generic": {
+    "name": "Location_Generic",
+    "description": "A translation file for the map. The filename needs to refer the file \"map.info\" in the mod's media folder.",
+    "keys": [
+      {
+        "name": "title",
+        "description": "The name of the map."
+      },
+      {
+        "name": "description",
+        "description": "A description of the map. Can use rich text tags."
+      }
+    ]
+  },
   "Moodles": {
     "name": "Moodles",
     "description": "Moodles status and descriptions translations",
@@ -413,20 +427,6 @@
       },
       {
         "pattern": "^\\$"
-      }
-    ]
-  },
-  "Map": {
-    "name": "Map",
-    "description": "A translation file for the map. The filename needs to refer the file \"map.info\" in the mod's media folder.",
-    "keys": [
-      {
-        "name": "title",
-        "description": "The name of the map."
-      },
-      {
-        "name": "description",
-        "description": "A description of the map. Can use rich text tags."
       }
     ]
   },
