@@ -10,7 +10,7 @@
         "pattern": "^Attributes_Type_[A-Za-z_]+$"
       },
       {
-        "pattern": "^Attributes_ToosltipOverride_[A-Za-z_]+$"
+        "pattern": "^Attributes_TooltipOverride_[A-Za-z_]+$"
       },
       {
         "pattern": "^\\$"
