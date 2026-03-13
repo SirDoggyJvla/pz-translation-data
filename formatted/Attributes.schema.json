@@ -17,6 +17,11 @@
       "description": ""
     }
   },
-  "properties": {},
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "A reference to the JSON schema file."
+    }
+  },
   "additionalProperties": false
 }

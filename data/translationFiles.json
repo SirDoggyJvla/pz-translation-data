@@ -157,6 +157,10 @@
       {
         "name": "description",
         "description": "A description of the map. Can use rich text tags."
+      },
+      {
+        "name": "$schema",
+        "description": "A reference to the JSON schema file."
       }
     ]
   },
@@ -382,6 +386,10 @@
       {
         "name": "description",
         "description": "A description of the mod. Can use rich text tags."
+      },
+      {
+        "name": "$schema",
+        "description": "A reference to the JSON schema file."
       }
     ]
   },
