@@ -1,5 +1,7 @@
 # yaml-language-server: $schema=../../schemas/translation_files.json
 
+# yaml-language-server: $schema=../../.schemas/translation_files.json
+
 version: 1
 name: Mod
 description: Translations for the mod.info file. Possible keys are "name" and "description".
