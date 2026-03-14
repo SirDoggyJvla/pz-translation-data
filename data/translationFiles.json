@@ -7,24 +7,18 @@
     "patternProperties": [
       {
         "pattern": "^[A-Za-z0-9_!\\s]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
   "Entity": {
     "name": "Entity",
-    "description": "Translations for entity scripts.",
+    "description": "Translations for entity UIs.",
     "fileName": "Entity",
     "keyPrefix": "EC_",
     "function": "getText",
     "patternProperties": [
       {
         "pattern": "^EC_[A-Za-z_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -37,9 +31,6 @@
     "patternProperties": [
       {
         "pattern": "^Farming_[A-Za-z0-9_\\s-]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -52,9 +43,6 @@
     "patternProperties": [
       {
         "pattern": "^GameSound_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -66,9 +54,6 @@
     "patternProperties": [
       {
         "pattern": "^[A-Za-z0-9_\\(\\): -]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -80,10 +65,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_\\s:\\./'!-]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^IGUI_[A-Za-z0-9_\\s:\\.\\/'!-]+$"
       }
     ]
   },
@@ -95,10 +77,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Sandbox_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Sandbox_[A-Za-z0-9_]+(_option[0-9]+|_tooltip)?$"
       }
     ]
   },
@@ -111,9 +90,6 @@
     "patternProperties": [
       {
         "pattern": "^BODYPART_[A-Z_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -126,9 +102,6 @@
     "patternProperties": [
       {
         "pattern": "^Stash_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -140,9 +113,6 @@
     "patternProperties": [
       {
         "pattern": "^MakeUp(Category|Type)_[A-Za-z0-9]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -172,10 +142,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Moodles_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Moodles_[A-Za-z0-9_]+(_desc)?_lvl0-9$"
       }
     ]
   },
@@ -187,10 +154,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_\\s/]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^ContextMenu_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -206,9 +170,6 @@
       },
       {
         "pattern": "^Attributes_ToosltipOverride_[A-Za-z_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -219,10 +180,7 @@
     "function": "getItemNameFromFullType",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z_][A-Za-z0-9_]*\\.[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^[A-Za-z0-9_]+\\.[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -235,9 +193,6 @@
     "patternProperties": [
       {
         "pattern": "^Tooltip_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -250,9 +205,6 @@
     "patternProperties": [
       {
         "pattern": "^RD_[a-f0-9-]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -264,9 +216,6 @@
     "patternProperties": [
       {
         "pattern": "^Survivor(Name|Surname)_[A-Za-z0-9_\\s\\.'-]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -279,9 +228,6 @@
     "patternProperties": [
       {
         "pattern": "^AEBS_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -292,10 +238,7 @@
     "function": "Translator.getItemEvolvedRecipeName",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z_][A-Za-z0-9_]*\\.[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^[A-Za-z0-9_]+\\.[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -308,9 +251,6 @@
     "patternProperties": [
       {
         "pattern": "^Challenge_[A-Za-z0-9\\s]+(_[A-Za-z0-9]+|InfoBox)$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -323,9 +263,6 @@
     "patternProperties": [
       {
         "pattern": "^SurvivalGuide_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -333,14 +270,11 @@
     "name": "Fluids",
     "description": "Translations for fluid related UI elements and fluid containers.",
     "fileName": "Fluids",
-    "keyPrefix": "Fluid_Name_",
+    "keyPrefix": "Fluid_",
     "function": "getText",
     "patternProperties": [
       {
         "pattern": "^Fluid_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -353,9 +287,6 @@
     "patternProperties": [
       {
         "pattern": "^RecipeGroup_[A-Za-z]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -367,10 +298,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_\\s/\\(\\)\\-]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^UI_[A-Za-z0-9_\\s/\\-]+$"
       }
     ]
   },
@@ -402,9 +330,6 @@
     "patternProperties": [
       {
         "pattern": "^MultiStageBuild_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -417,9 +342,6 @@
     "patternProperties": [
       {
         "pattern": "^Print_Text_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -432,9 +354,6 @@
     "patternProperties": [
       {
         "pattern": "^MapLabel_[A-Za-z]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -446,10 +365,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Print_Media_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -462,9 +378,6 @@
     "patternProperties": [
       {
         "pattern": "^RM_[A-Za-z0-9_-]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   }

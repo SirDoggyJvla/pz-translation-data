@@ -8,4 +8,3 @@ fileName: SurvivalGuide
 function: getText
 patternProperties:
 - pattern: ^SurvivalGuide_[A-Za-z0-9_]+$
-- pattern: ^\$

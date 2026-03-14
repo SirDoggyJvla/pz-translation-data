@@ -7,5 +7,4 @@ fileName: ContextMenu
 keyPrefix: ContextMenu_
 function: getText
 patternProperties:
-- pattern: ^[A-Za-z0-9_\s/]+$
-- pattern: ^\$
+- pattern: ^ContextMenu_[A-Za-z0-9_]+$

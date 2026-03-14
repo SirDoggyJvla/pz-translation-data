@@ -2,10 +2,9 @@
 
 version: 1
 name: Entity
-description: Translations for entity scripts.
+description: Translations for entity UIs.
 fileName: Entity
 keyPrefix: EC_
 function: getText
 patternProperties:
 - pattern: ^EC_[A-Za-z_]+$
-- pattern: ^\$

@@ -7,10 +7,6 @@
     "^MapLabel_[A-Za-z]+$": {
       "type": "string",
       "description": ""
-    },
-    "^\\$": {
-      "type": "string",
-      "description": ""
     }
   },
   "properties": {

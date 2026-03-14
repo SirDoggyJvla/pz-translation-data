@@ -8,4 +8,3 @@ fileName: RecipeGroups
 function: Translator.getRecipeGroupName
 patternProperties:
 - pattern: ^RecipeGroup_[A-Za-z]+$
-- pattern: ^\$

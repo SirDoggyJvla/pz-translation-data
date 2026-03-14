@@ -9,4 +9,3 @@ function: getText
 patternProperties:
   - pattern: ^Attributes_Type_[A-Za-z_]+$
   - pattern: ^Attributes_ToosltipOverride_[A-Za-z_]+$
-  - pattern: ^\$

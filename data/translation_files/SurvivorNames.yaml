@@ -8,4 +8,3 @@ fileName: SurvivorNames
 function: getText
 patternProperties:
 - pattern: ^Survivor(Name|Surname)_[A-Za-z0-9_\s\.'-]+$
-- pattern: ^\$

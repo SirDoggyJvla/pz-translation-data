@@ -7,5 +7,4 @@ fileName: IG_UI
 keyPrefix: IGUI_
 function: getText
 patternProperties:
-- pattern: ^[A-Za-z0-9_\s:\./'!-]+$
-- pattern: ^\$
+- pattern: ^IGUI_[A-Za-z0-9_\s:\.\/'!-]+$

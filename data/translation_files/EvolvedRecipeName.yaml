@@ -6,5 +6,4 @@ description: Translations for evolved recipe scripts.
 fileName: EvolvedRecipeName
 function: Translator.getItemEvolvedRecipeName
 patternProperties:
-- pattern: ^[A-Za-z_][A-Za-z0-9_]*\.[A-Za-z0-9_]+$
-- pattern: ^\$
+- pattern: ^[A-Za-z0-9_]+\.[A-Za-z0-9_]+$

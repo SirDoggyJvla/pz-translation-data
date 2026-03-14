@@ -9,4 +9,3 @@ fileName: Print_Text
 function: getText
 patternProperties:
 - pattern: ^Print_Text_[A-Za-z0-9_]+$
-- pattern: ^\$

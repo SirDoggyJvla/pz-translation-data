@@ -8,4 +8,3 @@ fileName: Recorded_Media
 function: getText
 patternProperties:
 - pattern: ^RM_[A-Za-z0-9_-]+$
-- pattern: ^\$

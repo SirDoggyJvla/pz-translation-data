@@ -7,10 +7,6 @@
     "^MultiStageBuild_[A-Za-z0-9_]+$": {
       "type": "string",
       "description": ""
-    },
-    "^\\$": {
-      "type": "string",
-      "description": ""
     }
   },
   "properties": {

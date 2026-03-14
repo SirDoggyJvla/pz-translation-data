@@ -7,5 +7,4 @@ keyPrefix: UI_
 fileName: UI
 function: getText
 patternProperties:
-- pattern: ^[A-Za-z0-9_\s/\(\)\-]+$
-- pattern: ^\$
+- pattern: ^UI_[A-Za-z0-9_\s/\-]+$

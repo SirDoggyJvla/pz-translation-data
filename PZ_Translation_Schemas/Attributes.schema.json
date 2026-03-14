@@ -11,10 +11,6 @@
     "^Attributes_ToosltipOverride_[A-Za-z_]+$": {
       "type": "string",
       "description": ""
-    },
-    "^\\$": {
-      "type": "string",
-      "description": ""
     }
   },
   "properties": {

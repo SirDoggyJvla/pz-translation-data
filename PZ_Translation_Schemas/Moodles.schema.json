@@ -4,11 +4,7 @@
   "description": "Moodles status and descriptions translations",
   "type": "object",
   "patternProperties": {
-    "^Moodles_[A-Za-z0-9_]+$": {
-      "type": "string",
-      "description": ""
-    },
-    "^\\$": {
+    "^Moodles_[A-Za-z0-9_]+(_desc)?_lvl0-9$": {
       "type": "string",
       "description": ""
     }

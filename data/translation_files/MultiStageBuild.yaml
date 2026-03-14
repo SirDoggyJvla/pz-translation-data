@@ -8,4 +8,3 @@ fileName: MultiStageBuild
 function: Translator.getMultiStageBuild
 patternProperties:
 - pattern: ^MultiStageBuild_[A-Za-z0-9_]+$
-- pattern: ^\$

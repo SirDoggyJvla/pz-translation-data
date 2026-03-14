@@ -7,5 +7,4 @@ keyPrefix: Moodles_
 fileName: Moodles
 function: getText
 patternProperties:
-- pattern: ^Moodles_[A-Za-z0-9_]+$
-- pattern: ^\$
+- pattern: ^Moodles_[A-Za-z0-9_]+(_desc)?_lvl0-9$

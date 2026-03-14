@@ -8,4 +8,3 @@ fileName: Stash
 function: getText
 patternProperties:
 - pattern: ^Stash_[A-Za-z0-9_]+$
-- pattern: ^\$

@@ -8,4 +8,3 @@ fileName: MapLabel
 function: getText
 patternProperties:
 - pattern: ^MapLabel_[A-Za-z]+$
-- pattern: ^\$

@@ -8,4 +8,3 @@ keyPrefix: Challenge_
 function: getText
 patternProperties:
 - pattern: ^Challenge_[A-Za-z0-9\s]+(_[A-Za-z0-9]+|InfoBox)$
-- pattern: ^\$

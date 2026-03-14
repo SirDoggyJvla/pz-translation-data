@@ -8,4 +8,3 @@ keyPrefix: Farming_
 function: getText
 patternProperties:
 - pattern: ^Farming_[A-Za-z0-9_\s-]+$
-- pattern: ^\$

@@ -8,4 +8,3 @@ fileStarter: BodyParts_
 function: getText
 patternProperties:
 - pattern: ^BODYPART_[A-Z_]+$
-- pattern: ^\$

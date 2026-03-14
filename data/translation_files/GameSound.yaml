@@ -8,4 +8,3 @@ keyPrefix: GameSound_
 function: getText
 patternProperties:
 - pattern: ^GameSound_[A-Za-z0-9_]+$
-- pattern: ^\$

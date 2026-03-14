@@ -7,5 +7,4 @@ keyPrefix: Sandbox_
 fileName: Sandbox
 function: getText
 patternProperties:
-- pattern: ^Sandbox_[A-Za-z0-9_]+$
-- pattern: ^\$
+- pattern: ^Sandbox_[A-Za-z0-9_]+(_option[0-9]+|_tooltip)?$

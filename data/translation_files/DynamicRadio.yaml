@@ -8,4 +8,3 @@ keyPrefix: AEBS_
 function: getRadioText
 patternProperties:
 - pattern: ^AEBS_[A-Za-z0-9_]+$
-- pattern: ^\$

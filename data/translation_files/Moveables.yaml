@@ -7,4 +7,3 @@ fileName: Moveables
 function: Translator.getMoveableDisplayName
 patternProperties:
 - pattern: ^[A-Za-z0-9_!\s]+$
-- pattern: ^\$

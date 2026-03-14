@@ -7,5 +7,5 @@ description: Translations for item scripts. The key needs to be the full type of
 fileName: ItemName
 function: getItemNameFromFullType
 patternProperties:
-- pattern: ^[A-Za-z_][A-Za-z0-9_]*\.[A-Za-z0-9_]+$
-- pattern: ^\$
+- pattern: ^[A-Za-z0-9_]+\.[A-Za-z0-9_]+$
+

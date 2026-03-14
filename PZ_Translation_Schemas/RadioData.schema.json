@@ -7,10 +7,6 @@
     "^RD_[a-f0-9-]+$": {
       "type": "string",
       "description": ""
-    },
-    "^\\$": {
-      "type": "string",
-      "description": ""
     }
   },
   "properties": {
