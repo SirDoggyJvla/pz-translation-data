@@ -7,28 +7,19 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Attributes_Type_[A-Za-z_]+$"
-      },
-      {
-        "pattern": "^Attributes_ToosltipOverride_[A-Za-z_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^[A-Za-z0-9_!\\s]+$"
       }
     ]
   },
-  "BodyParts": {
-    "name": "BodyParts",
-    "description": "",
-    "fileName": "BodyParts",
-    "fileStarter": "BodyParts_",
+  "Entity": {
+    "name": "Entity",
+    "description": "Translations for entity UIs.",
+    "fileName": "Entity",
+    "keyPrefix": "EC_",
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^BODYPART_[A-Z_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^EC_[A-Za-z_]+$"
       }
     ]
   },
@@ -40,10 +31,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Challenge_[A-Za-z0-9\\s]+(_[A-Za-z0-9]+|InfoBox)$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Farming_[A-Za-z0-9_\\s-]+$"
       }
     ]
   },
@@ -55,10 +43,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_\\s/]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^GameSound_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -70,10 +55,19 @@
     "function": "getRadioText",
     "patternProperties": [
       {
-        "pattern": "^AEBS_[A-Za-z0-9_]+$"
-      },
+        "pattern": "^[A-Za-z0-9_\\(\\): -]+$"
+      }
+    ]
+  },
+  "IG_UI": {
+    "name": "IG_UI",
+    "description": "Translations for in-game user interface elements.",
+    "fileName": "IG_UI",
+    "keyPrefix": "IGUI_",
+    "function": "getText",
+    "patternProperties": [
       {
-        "pattern": "^\\$"
+        "pattern": "^IGUI_[A-Za-z0-9_\\s:\\.\\/'!-]+$"
       }
     ]
   },
@@ -85,10 +79,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^EC_[A-Za-z_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Sandbox_[A-Za-z0-9_]+(_option[0-9]+|_tooltip)?$"
       }
     ]
   },
@@ -99,25 +90,7 @@
     "function": "Translator.getItemEvolvedRecipeName",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z_][A-Za-z0-9_]*\\.[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
-      }
-    ]
-  },
-  "Farming": {
-    "name": "Farming",
-    "description": "Translations for farming menus.",
-    "fileName": "Farming",
-    "keyPrefix": "Farming_",
-    "function": "getText",
-    "patternProperties": [
-      {
-        "pattern": "^Farming_[A-Za-z0-9_\\s-]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^BODYPART_[A-Z_]+$"
       }
     ]
   },
@@ -129,10 +102,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Fluid_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Stash_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -144,10 +114,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^GameSound_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^MakeUp(Category|Type)_[A-Za-z0-9]+$"
       }
     ]
   },
@@ -159,10 +126,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_\\s:\\./'!-]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Moodles_[A-Za-z0-9_]+(_desc)?_lvl0-9$"
       }
     ]
   },
@@ -173,10 +137,7 @@
     "function": "getItemNameFromFullType",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z_][A-Za-z0-9_]*\\.[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^ContextMenu_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -189,12 +150,7 @@
         "description": "The name of the map."
       },
       {
-        "name": "description",
-        "description": "A description of the map. Can use rich text tags."
-      },
-      {
-        "name": "$schema",
-        "description": "A reference to the translation JSON schema file."
+        "pattern": "^Attributes_ToosltipOverride_[A-Za-z_]+$"
       }
     ]
   },
@@ -205,10 +161,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^MakeUp(Category|Type)_[A-Za-z0-9]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^[A-Za-z0-9_]+\\.[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -220,10 +173,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^MapLabel_[A-Za-z]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Tooltip_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -233,16 +183,7 @@
     "fileName": "Mod",
     "keys": [
       {
-        "name": "name",
-        "description": "The name of the mod."
-      },
-      {
-        "name": "description",
-        "description": "A description of the mod. Can use rich text tags."
-      },
-      {
-        "name": "$schema",
-        "description": "A reference to the translation JSON schema file."
+        "pattern": "^RD_[a-f0-9-]+$"
       }
     ]
   },
@@ -254,10 +195,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Moodles_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Survivor(Name|Surname)_[A-Za-z0-9_\\s\\.'-]+$"
       }
     ]
   },
@@ -268,10 +206,7 @@
     "function": "Translator.getMoveableDisplayName",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_!\\s]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^AEBS_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -283,10 +218,7 @@
     "function": "Translator.getMultiStageBuild",
     "patternProperties": [
       {
-        "pattern": "^MultiStageBuild_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^[A-Za-z0-9_]+\\.[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -298,10 +230,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Challenge_[A-Za-z0-9\\s]+(_[A-Za-z0-9]+|InfoBox)$"
       }
     ]
   },
@@ -313,25 +242,19 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Print_Text_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^SurvivalGuide_[A-Za-z0-9_]+$"
       }
     ]
   },
-  "RadioData": {
-    "name": "RadioData",
-    "description": "Radio translations with the key being a GUID of the radio text.",
-    "keyPrefix": "RD_",
-    "fileName": "RadioData",
+  "Fluids": {
+    "name": "Fluids",
+    "description": "Translations for fluid related UI elements and fluid containers.",
+    "fileName": "Fluids",
+    "keyPrefix": "Fluid_",
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^RD_[a-f0-9-]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Fluid_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -344,9 +267,6 @@
     "patternProperties": [
       {
         "pattern": "^RecipeGroup_[A-Za-z]+$"
-      },
-      {
-        "pattern": "^\\$"
       }
     ]
   },
@@ -357,10 +277,7 @@
     "function": "getRecipeDisplayName",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_\\(\\): -]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^UI_[A-Za-z0-9_\\s/\\-]+$"
       }
     ]
   },
@@ -402,10 +319,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Stash_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^MultiStageBuild_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -417,10 +331,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^SurvivalGuide_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Print_Text_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -431,10 +342,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Survivor(Name|Surname)_[A-Za-z0-9_\\s\\.'-]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^MapLabel_[A-Za-z]+$"
       }
     ]
   },
@@ -446,10 +354,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^Tooltip_[A-Za-z0-9_]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^Print_Media_[A-Za-z0-9_]+$"
       }
     ]
   },
@@ -461,10 +366,7 @@
     "function": "getText",
     "patternProperties": [
       {
-        "pattern": "^[A-Za-z0-9_\\s/\\(\\)\\-]+$"
-      },
-      {
-        "pattern": "^\\$"
+        "pattern": "^RM_[A-Za-z0-9_-]+$"
       }
     ]
   }

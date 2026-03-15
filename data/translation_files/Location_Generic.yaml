@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=../../.schemas/translation_files.json
+
 version: 1
 name: Location_Generic
 description: A translation file for the map. The filename needs to refer the file "map.info" in the mod's media folder.

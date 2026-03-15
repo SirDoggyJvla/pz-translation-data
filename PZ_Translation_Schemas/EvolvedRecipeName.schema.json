@@ -4,11 +4,7 @@
   "description": "Translations for evolved recipe scripts.",
   "type": "object",
   "patternProperties": {
-    "^[A-Za-z_][A-Za-z0-9_]*\\.[A-Za-z0-9_]+$": {
-      "type": "string",
-      "description": ""
-    },
-    "^\\$": {
+    "^[A-Za-z0-9_]+\\.[A-Za-z0-9_]+$": {
       "type": "string",
       "description": ""
     }

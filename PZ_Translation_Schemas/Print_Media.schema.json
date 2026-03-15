@@ -4,11 +4,7 @@
   "description": "Text content for media items such as newspapers, describing their content.",
   "type": "object",
   "patternProperties": {
-    "^[A-Za-z0-9_]+$": {
-      "type": "string",
-      "description": ""
-    },
-    "^\\$": {
+    "^Print_Media_[A-Za-z0-9_]+$": {
       "type": "string",
       "description": ""
     }
