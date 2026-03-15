@@ -4,11 +4,7 @@
   "description": "Translations for in-game user interface elements.",
   "type": "object",
   "patternProperties": {
-    "^[A-Za-z0-9_\\s:\\./'!-]+$": {
-      "type": "string",
-      "description": ""
-    },
-    "^\\$": {
+    "^IGUI_[A-Za-z0-9_\\s:\\.\\/'!-]+$": {
       "type": "string",
       "description": ""
     }

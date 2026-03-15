@@ -4,11 +4,7 @@
   "description": "Sandbox options translations.",
   "type": "object",
   "patternProperties": {
-    "^Sandbox_[A-Za-z0-9_]+$": {
-      "type": "string",
-      "description": ""
-    },
-    "^\\$": {
+    "^Sandbox_[A-Za-z0-9_]+(_option[0-9]+|_tooltip)?$": {
       "type": "string",
       "description": ""
     }

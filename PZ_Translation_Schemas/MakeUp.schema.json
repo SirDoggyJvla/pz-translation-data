@@ -7,10 +7,6 @@
     "^MakeUp(Category|Type)_[A-Za-z0-9]+$": {
       "type": "string",
       "description": ""
-    },
-    "^\\$": {
-      "type": "string",
-      "description": ""
     }
   },
   "properties": {

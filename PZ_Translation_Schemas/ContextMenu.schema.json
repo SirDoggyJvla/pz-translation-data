@@ -4,11 +4,7 @@
   "description": "Translations used in the context menus of the game.",
   "type": "object",
   "patternProperties": {
-    "^[A-Za-z0-9_\\s/]+$": {
-      "type": "string",
-      "description": ""
-    },
-    "^\\$": {
+    "^ContextMenu_[A-Za-z0-9_]+$": {
       "type": "string",
       "description": ""
     }

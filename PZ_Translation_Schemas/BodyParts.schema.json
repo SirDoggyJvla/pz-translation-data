@@ -7,10 +7,6 @@
     "^BODYPART_[A-Z_]+$": {
       "type": "string",
       "description": ""
-    },
-    "^\\$": {
-      "type": "string",
-      "description": ""
     }
   },
   "properties": {
